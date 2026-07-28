@@ -204,7 +204,7 @@ else:
     # Header & Logout 
     col_title, col_logout = st.columns([3, 1])
     with col_title:
-        st.title("📇 Flash-Learn")
+        st.title("📇 Learn Malayalam")
     with col_logout:
         st.write("") 
         if st.button("Log Out"):
