@@ -86,7 +86,7 @@ if 'flashcards' not in st.session_state:
         {"english": "Hello", "malayalam": "Namaskaram", "spoken": "Namaskaram"},
         {"english": "How are you?", "malayalam": "Sukhamaano?", "spoken": "Sukhamaano?"},
         {"english": "I am fine", "malayalam": "Enikku sukhamaanu", "spoken": "Enikku sukhamaanu"},
-        {"english": "What is your name?", "malayalam": "Pera entha?", "spoken": "Pera entha?"},
+        {"english": "What is your name?", "malayalam": "Pera entha?", "spoken": "Per entha?"},
         {"english": "My name is...", "malayalam": "Ente peru...", "spoken": "Ente peru..."},
         {"english": "Yes", "malayalam": "Athe", "spoken": "Athe"},
         {"english": "No", "malayalam": "Alla", "spoken": "Alla"},
