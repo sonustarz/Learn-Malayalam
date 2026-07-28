@@ -291,7 +291,8 @@ else:
 
     # Database-backed Progress Tracking
     unique_seen = len(set(st.session_state.history))
-    st.caption(f"Sequence Step: {st.session_state.current_step + 1} | Unique Cards Discovered: {unique_seen}/100")    if st.button("Log In"):
+    st.caption(f"Sequence Step: {st.session_state.current_step + 1} | Unique Cards Discovered: {unique_seen}/100")    
+    if st.button("Log In"):
         if login_username in st.session_state.user_db:
             st.success(f"Logged in as {login_username}. Loading your progress...")
             # Here you would load their specific history array into the session state
